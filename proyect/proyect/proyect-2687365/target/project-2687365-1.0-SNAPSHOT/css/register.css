@@ -1,0 +1,141 @@
+html,
+body {
+    background-color: rgb(247, 248, 248);
+    font-family: Gabriola;
+    font-weight: bolder;
+    font-style: normal;
+    color: black;
+    color: darkblue;
+}
+
+body img{
+    margin-left: 50px;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #545859;
+    width: 183vh;
+    height: 70px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-family: "sans-serif";
+    font-style: normal;
+}
+
+header nav{
+    justify-content: right;
+}
+
+/*Body*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    background-color: #590000;
+    flex-direction: column;
+}
+
+/*Form*/
+
+.form-register {
+    display: flex;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 50px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    border: 3px solid #9c4fec;
+    padding: 20px;
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+h4{
+    font-size: 24px;
+    text-align: center;
+}
+.mb-4{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-register .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-register input[type="text"] {
+    height: 20px;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.form-register input[type="email"] {
+    height: 20px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.form-register input[type="password"] {
+    height: 20px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+button{
+    background-color: rgba(146, 199, 158, 0.81);
+    padding: 5px;
+    width: 100px;
+    border: 3px solid black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: rgba(121,255,218,0.82);
+    border-color: rgba(121,255,218,0.82);
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.81);
+    font-family: Gabriola;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px;
+    color: whitesmoke;
+    border-top: 3px solid black;
+    height: 70px;
+    width: 181vh;
+    padding: 20px;
+    text-align: center;
+}
+
+/*register Bottom*/
+
+#register {
+    padding: 1.5rem;
+}

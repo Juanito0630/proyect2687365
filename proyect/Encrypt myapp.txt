@@ -1,0 +1,3 @@
+Encrypt myapp
+
+$2a$12$gxzmHDY/eOUg9nzK2UHrrOrH2rl4C2jS48kfihoZfG8uMZAEu.tiq

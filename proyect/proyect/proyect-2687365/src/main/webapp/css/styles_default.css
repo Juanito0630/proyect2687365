@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Body*/
+body {
+    background-color: lightcyan;
+}
+
+/*Navbar*/
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Footer*/
+footer {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        display: none;
+    }
+
+}
